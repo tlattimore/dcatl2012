@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * Implements template_preproces_page().
@@ -66,3 +67,5 @@ function advancement_username($vars) {
   return $output;
 
 }
+=======
+>>>>>>> parent of dc7cdc6... Moved menu's to template.php
