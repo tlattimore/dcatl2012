@@ -22,21 +22,6 @@ function advancement_preprocess_page(&$vars) {
             'class' => array('element-invisible'),
           ),
         ));
-  //var for secondary menu
-  $vars['comp_secondary_menu'] = theme('links__system_secondary_menu', array(
-          'links' => $vars['secondary_menu'],
-          'attributes' => array(
-            'id' => 'secondary-menu-links',
-            'class' => array('links', 'inline', 'clearfix'),
-          ),
-          'heading' => array(
-            'text' => t('Secondary menu'),
-            'level' => 'h2',
-            'class' => array('element-invisible'),
-          ),
-        ));
-
-  //dpm($vars);
 
 }
 
